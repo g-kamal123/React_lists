@@ -1,0 +1,50 @@
+*,*::after,*::before{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: 5%; */
+  /* margin-left: 5%; */
+}
+form{
+  display: table;
+}
+.gui{
+  /* display: flex;
+  flex-direction: column;
+  gap: 3rem; */
+  /* flex: 1 0 0; */
+}
+p{
+  display: table-row;
+}
+input,label{
+  display: table-cell;
+  margin: 5%;
+}
+input{
+  margin-left: 5%;
+  padding: 5% 15% 5% 2%;
+  font-size: 1.2rem;
+}
+button{
+  margin-top: 10%;
+  font-size: 1rem; 
+  font-weight: 0;
+  padding: 6% 16% 6% 16%;
+  border: 3px solid black;
+  background-color: white;
+  cursor: pointer;
+}
+table{
+  width: 40vw;
+  margin-top: 15%;
+}
+td{
+  padding: 2%;
+}

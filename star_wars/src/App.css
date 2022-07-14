@@ -1,0 +1,46 @@
+*,*::after,*::before{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+}
+.stars{
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input[value='STAR WARS']{
+  padding: 5%;
+  font-size: 1.5rem;
+}
+.item{
+  border: 1px solid black;
+  padding: 4%;
+}
+.wars{
+  /* max-width: 15vw; */
+  padding: 0%;
+  overflow-x: hidden;
+}
+.input{
+  padding: 4%;
+}
+.input input,button{
+  padding: 2%;
+}
+.delete{
+  background-color: whitesmoke;
+  border: none;
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+}
+.delete:hover{
+  color: red;
+}
