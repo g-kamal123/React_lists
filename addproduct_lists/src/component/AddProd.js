@@ -32,6 +32,22 @@ export class AddProd extends Component {
         })
     }
     addProductHandler = (event)=>{
+        if(this.state.id===''|| this.state.name===''|| this.state.price===''){
+            alert('enter all the input fields')
+            return
+        }
+        if(isNaN(this.state.id)){
+            alert('enter numerical id')
+            return
+        }
+        if(!isNaN(this.state.name)){
+            alert('enter a valid name')
+            return
+        }
+        if(isNaN(this.state.price)){
+            alert('enter numerical value for price')
+            return
+        }
         var arr = {
             id:this.state.id,
             name:this.state.name,

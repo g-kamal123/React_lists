@@ -15,7 +15,7 @@ export class Print extends Component {
             <tr>
                 <td>{item.id}</td>
                 <td>{item.name}</td>
-                <td>P{item.price}</td>
+                <td>{item.price}</td>
             </tr>
             )}
             </tbody>

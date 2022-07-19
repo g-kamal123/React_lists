@@ -1,7 +1,7 @@
 import './App.css';
 
 import React, { Component } from 'react'
-import Json from './Json';
+
 
 export class App extends Component {
   state = {
@@ -15,7 +15,6 @@ export class App extends Component {
           {this.state.arr.map((item)=>
           <li>{item}</li>)}
         </ul>
-        <Json />
       </div>
     )
   }
